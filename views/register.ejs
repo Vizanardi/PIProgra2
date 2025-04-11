@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- Include Head -->
+
+<body>
+	<%- include('partials/header') %>
+
+
+	<!-- Novedades -->
+	<div class="container products-wrapper">
+		<div class="row">
+			<div class="col-12">
+				<h2 class="products-title">Registrate</h2>
+			</div>
+			<!-- Show the "ultimos" products -->
+			<h2 class="col-12"> <i>
+				
+			<form action="/PIProgra2/routes/register.js" method="GET" class="">
+				<input type="email" name="email" placeholder="Email" class="">
+				<input type="text" name="usuario" placeholder="Usuario" class="">	
+				<input type="password" name="password" placeholder="Contraseña" class="">
+				<input type="date" name="fechaDeNacimiento" placeholder="fecha de nacimiento" class="">
+				<input type="text" name="fotoDePerfil" placeholder="Foto de perfil" class="">
+			</form>
+
+			<form action="searchR.js" method="GET" class="search-form">
+                <input type="text" name="search" placeholder="Buscar productos, marcas y más" class="search-form_input">
+                <button type="submit" class="search-form_button"><i class="fas fa-search"></i></button>
+            </form>
+
+
+				<!--/* ///////////////////////////////////////// <br> Acá va el formulario de registro. <br>
+			Debe cumplir con los puntos de la consigna y ser coherente con la tabla de la base de datos <br>
+			Eliminen estás líneas y coloquen el formulario. <br>
+			Recuerden todo lo que necesita tanto la etiqueta form como los campos input para operar correctamtente</i> <br>
+			//////////////// -->
+			</h2>
+
+<!-- Include Footer -->
+
+</body>
+
+</html>
